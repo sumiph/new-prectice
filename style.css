@@ -115,9 +115,6 @@ text-align: center;
 
 
 @media screen and  (max-width:576px) {
-    header{
-        width: 90%;
-    }
     .main-hader{
     flex-direction: column;
     }
