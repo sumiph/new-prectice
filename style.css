@@ -112,6 +112,7 @@ text-align: center;
     }
     .hader-list ul{
         margin-top: 20px;
+        margin-left: 0;
     }
     .all-quick-items{ 
         flex-direction: column;
@@ -127,7 +128,7 @@ text-align: center;
 }
 .ccard{
     flex-direction: column;
-    margin: 8px;
+    margin: 60px;
 }
 
 }
