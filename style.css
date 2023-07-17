@@ -107,11 +107,11 @@ text-align: center;
 
 
 @media screen and  (max-width:576px) {
-    .main-hader{
+    .main-hader,
+    .ccard{
     flex-direction: column;
     }
-    .hader-list ul,
-    .ccard {
+    .hader-list ul{
         flex-direction: column;
         margin-top: 20px;
         padding-left: 200px;
