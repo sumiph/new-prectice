@@ -5,7 +5,7 @@
 }
 header{
     background-color: antiquewhite;
-    width: 100%;
+    width: 90%;
 }
 .main-hader{
  display: flex;
@@ -13,7 +13,7 @@ header{
  justify-content: space-around;
 }
 .contend-text{
-    font-size: 50px;
+    font-size: 40px;
 }
 .hader-list ul{
     list-style: none;
@@ -104,6 +104,14 @@ text-align: center;
     color: #727272;
 }
 /*end facts*/
+/*start-sponsers*/
+#h3 #p{
+    text-align: center;
+    justify-content: center;
+}
+/*end sponser*/
+
+
 
 
 @media screen and  (max-width:576px) {
