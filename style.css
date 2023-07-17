@@ -12,12 +12,18 @@ header{
  padding: 50px;
  justify-content: space-around;
 }
-.nav text{
-    font-size: 60px;
+.contend-text{
+    font-size: 50px;
 }
 .hader-list ul{
     list-style: none;
     display: flex;
+}
+.contend-peragrph{
+    color: #727272;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 200; 
 }
 .hader-list ul li{
 margin-left: 40px;
@@ -44,7 +50,7 @@ margin-bottom: 20px;
     width: 80%;
   margin-left: 9%;
 }
-/* haeder end*/
+/*------------------ haeder end------------------------*/
 .all-quick-items{ 
      display: flex;
 }
@@ -66,19 +72,53 @@ margin-bottom: 20px;
 }
 span1{opacity: 40%;}
 span2{color:rgb(255, 165, 0)}
+/*--------------quick fautuer end-------------*/
+/*steart facts*/
+.facts-contend{
+    text-align: left;
+    margin-left: 5%;
+}
+.ccard{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.factes-card{
+    border-radius: 8px;
+   border: 1px solid #FF900E;
+   width: 200.831px;
+  height: 200.831px;
+  margin-top: 30px;
+text-align: center;
+}
+.factes-card img{
+    padding-top: 30px;
+}
+.factes-card h1{
+    font-size: 40px;
+    color: #424242;
+    font-family: Work Sans;
+}
+.factes-card p{
+    font-family: Work Sans;
+    color: #727272;
+}
+/*end facts*/
 
 
 @media screen and  (max-width:576px) {
     .main-hader{
     flex-direction: column;
     }
-    .hader-list ul{
+    .hader-list ul,
+    .ccard {
         flex-direction: column;
         margin-top: 20px;
         padding-left: 200px;
     }
     .all-quick-items{ 
         flex-direction: column;
+        padding: 10px;
    }
    .all-photos{
     display: grid;
@@ -86,7 +126,7 @@ span2{color:rgb(255, 165, 0)}
     padding: 5vh;
 }
 .all-quick-text{
-    padding-top: 5%;
+    padding: 10px;
 }
 
 
