@@ -111,9 +111,7 @@ text-align: center;
     flex-direction: column;
     }
     .hader-list ul{
-        flex-direction: column;
         margin-top: 20px;
-        padding-left: 200px;
     }
     .all-quick-items{ 
         flex-direction: column;
